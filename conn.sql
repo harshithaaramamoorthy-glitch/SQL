@@ -1,0 +1,10 @@
+USE employeedb;
+CREATE TABLE student(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+age INT);
+INSERT INTO student(name,age) VALUES
+("HARSHITHAA",21);
+SELECT * FROM student;
+
+
